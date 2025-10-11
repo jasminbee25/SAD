@@ -1,6 +1,7 @@
 import 'dart:io';
 
-void main(){
-    int x = int.parse(stdin.readLineSync()!);
-    print(x * x);
+void main() {
+  stdout.write('Enter a number: ');
+  int x = int.parse(stdin.readLineSync()!);
+  print('Square = ${x * x}');
 }
