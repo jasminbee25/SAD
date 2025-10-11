@@ -1,5 +1,11 @@
+import 'dart:io';
 void main(){
-    double c = 25;
-    double f = (c * 9 / 5) + 32;
-    print("Fahrenheit = $f");
-}
+    String s = "        Jas      _min     _09";
+    String txt = "";
+    for (int i = 0; i < s.length; i++){
+        if(s[i] != " "){
+            txt += s[i];
+        }
+    }
+    print(txt);
+}    
