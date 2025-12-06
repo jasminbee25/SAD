@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'profile_screen.dart';
 import 'info_screen.dart';
+import 'score_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -34,6 +35,16 @@ class HomeScreen extends StatelessWidget {
                 );
               },
               child: const Text("Go to About Page"),
+            ),
+            const SizedBox(height: 15),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ScoreScreen()),
+                );
+              },
+              child: const Text("Go to Score Page"),
             ),
           ],
         ),
