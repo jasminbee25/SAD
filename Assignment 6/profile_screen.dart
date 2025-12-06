@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
       body: const Center(
         child: Text(
           "This is the Profile Page.",
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(fontSize: 22),
         ),
       ),
     );
